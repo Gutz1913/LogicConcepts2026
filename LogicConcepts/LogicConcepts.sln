@@ -113,6 +113,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayOperations", "ArrayOpe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecialOrderArray", "SpecialOrderArray\SpecialOrderArray.csproj", "{4E23C5F7-60C0-4303-98A6-A2B65D21CD0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromePhrases", "PalindromePhrases\PalindromePhrases.csproj", "{8AF1746A-19B0-4E54-965D-22D573744765}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -227,6 +229,10 @@ Global
 		{4E23C5F7-60C0-4303-98A6-A2B65D21CD0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E23C5F7-60C0-4303-98A6-A2B65D21CD0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E23C5F7-60C0-4303-98A6-A2B65D21CD0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF1746A-19B0-4E54-965D-22D573744765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF1746A-19B0-4E54-965D-22D573744765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF1746A-19B0-4E54-965D-22D573744765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF1746A-19B0-4E54-965D-22D573744765}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -259,6 +265,7 @@ Global
 		{842AAAD0-B4E4-4683-98F9-68BBF9BE1482} = {3457BBA6-A6E5-498E-9079-7D9BD5E50BFB}
 		{EF2B2C5F-0219-428C-8DBB-89DE9B43F226} = {2C88454C-94B8-47E5-9DF8-439B5A8223F7}
 		{4E23C5F7-60C0-4303-98A6-A2B65D21CD0F} = {F5AD6F19-9DCF-47FA-A644-8B475893CBC8}
+		{8AF1746A-19B0-4E54-965D-22D573744765} = {7EF609D6-BB89-4983-928B-0414F036539C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F74EF75F-2FBD-4E2F-96E3-83B83E14B5B5}
