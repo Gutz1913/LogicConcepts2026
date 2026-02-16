@@ -91,6 +91,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taylor", "Taylor\Taylor.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaylorModified", "TaylorModified\TaylorModified.csproj", "{80EEE797-0CC1-4315-9D2A-B2C04ABD2A2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquations", "QuadraticEquations\QuadraticEquations.csproj", "{022376B8-DFC4-4DA8-B8D9-84FE7B908089}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -161,6 +163,10 @@ Global
 		{80EEE797-0CC1-4315-9D2A-B2C04ABD2A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80EEE797-0CC1-4315-9D2A-B2C04ABD2A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80EEE797-0CC1-4315-9D2A-B2C04ABD2A2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{022376B8-DFC4-4DA8-B8D9-84FE7B908089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022376B8-DFC4-4DA8-B8D9-84FE7B908089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022376B8-DFC4-4DA8-B8D9-84FE7B908089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022376B8-DFC4-4DA8-B8D9-84FE7B908089}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -182,6 +188,7 @@ Global
 		{2A0C1854-DC32-4792-91E1-E1D5BD785464} = {D43BE049-5878-4D9A-A5D3-00EA30FADC99}
 		{E24A8D1C-99C0-4D33-A92A-BCB4880069A6} = {5F0F92AE-413D-41B3-A04B-CE70B94EA27F}
 		{80EEE797-0CC1-4315-9D2A-B2C04ABD2A2D} = {360F7358-060F-4F2F-A007-D5248B3E42B2}
+		{022376B8-DFC4-4DA8-B8D9-84FE7B908089} = {05E26E9A-2A51-4118-952A-0F77BAA0F79C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F74EF75F-2FBD-4E2F-96E3-83B83E14B5B5}
