@@ -83,6 +83,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SucesoStore", "SucesoStore\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransportationCompany", "TransportationCompany\TransportationCompany.csproj", "{69727526-5FFD-4856-ACAB-9D3EB54759EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumAndAverage", "SumAndAverage\SumAndAverage.csproj", "{C51EC3C2-9504-4170-B05B-DA5747B50311}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,6 +139,10 @@ Global
 		{69727526-5FFD-4856-ACAB-9D3EB54759EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69727526-5FFD-4856-ACAB-9D3EB54759EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69727526-5FFD-4856-ACAB-9D3EB54759EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C51EC3C2-9504-4170-B05B-DA5747B50311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C51EC3C2-9504-4170-B05B-DA5747B50311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C51EC3C2-9504-4170-B05B-DA5747B50311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C51EC3C2-9504-4170-B05B-DA5747B50311}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -154,6 +160,7 @@ Global
 		{25DC9072-089A-48CE-923D-745CCF91372F} = {2BC619E0-9742-4CE9-8DC9-188C9A2BB4A1}
 		{AEF101A9-51EB-4CB4-975B-30683DC7BE7F} = {2BD10BBF-BC14-40C1-A645-80D3605327B6}
 		{69727526-5FFD-4856-ACAB-9D3EB54759EE} = {945D6D52-58A9-4185-BF9B-1567A85D68A7}
+		{C51EC3C2-9504-4170-B05B-DA5747B50311} = {C60E2856-8334-4C85-84DF-838D8AE98CA6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F74EF75F-2FBD-4E2F-96E3-83B83E14B5B5}
