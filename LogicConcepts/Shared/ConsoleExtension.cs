@@ -10,7 +10,7 @@ public class ConsoleExtension
         {
             return numberInt;
         }
-        throw new Exception("El valor ingresado no es un número entero válido.");
+        throw new Exception("El valor ingresado no es válido.");
     }
 
     public static float GetFloat(string message)
