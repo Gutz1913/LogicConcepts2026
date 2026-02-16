@@ -111,6 +111,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenAndOddsArray", "EvenAnd
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayOperations", "ArrayOperations\ArrayOperations.csproj", "{EF2B2C5F-0219-428C-8DBB-89DE9B43F226}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecialOrderArray", "SpecialOrderArray\SpecialOrderArray.csproj", "{4E23C5F7-60C0-4303-98A6-A2B65D21CD0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -221,6 +223,10 @@ Global
 		{EF2B2C5F-0219-428C-8DBB-89DE9B43F226}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF2B2C5F-0219-428C-8DBB-89DE9B43F226}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF2B2C5F-0219-428C-8DBB-89DE9B43F226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E23C5F7-60C0-4303-98A6-A2B65D21CD0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E23C5F7-60C0-4303-98A6-A2B65D21CD0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E23C5F7-60C0-4303-98A6-A2B65D21CD0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E23C5F7-60C0-4303-98A6-A2B65D21CD0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -252,6 +258,7 @@ Global
 		{260BDE24-0905-4778-9C78-A56647F1D031} = {0C111C01-9C72-4858-BF4B-4DFB4DE56D69}
 		{842AAAD0-B4E4-4683-98F9-68BBF9BE1482} = {3457BBA6-A6E5-498E-9079-7D9BD5E50BFB}
 		{EF2B2C5F-0219-428C-8DBB-89DE9B43F226} = {2C88454C-94B8-47E5-9DF8-439B5A8223F7}
+		{4E23C5F7-60C0-4303-98A6-A2B65D21CD0F} = {F5AD6F19-9DCF-47FA-A644-8B475893CBC8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F74EF75F-2FBD-4E2F-96E3-83B83E14B5B5}
