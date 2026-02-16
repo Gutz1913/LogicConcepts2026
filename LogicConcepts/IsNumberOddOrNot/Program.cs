@@ -5,7 +5,7 @@ do
 {
     try
     {
-        var number = ConsoleExtension.GetInt("Ingrese un número entero para saber si es par o impar: ");
+        var number = ConsoleExtension.GetInt("Ingrese un número: ");
         if (number % 2 == 0)
         {
             Console.WriteLine($"El número {number} es par.");
