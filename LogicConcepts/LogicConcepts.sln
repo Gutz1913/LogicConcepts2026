@@ -93,6 +93,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaylorModified", "TaylorMod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquations", "QuadraticEquations\QuadraticEquations.csproj", "{022376B8-DFC4-4DA8-B8D9-84FE7B908089}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{2AF46DF6-EE1B-48A2-A462-3A1827B31488}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -167,6 +169,10 @@ Global
 		{022376B8-DFC4-4DA8-B8D9-84FE7B908089}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{022376B8-DFC4-4DA8-B8D9-84FE7B908089}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{022376B8-DFC4-4DA8-B8D9-84FE7B908089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF46DF6-EE1B-48A2-A462-3A1827B31488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF46DF6-EE1B-48A2-A462-3A1827B31488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF46DF6-EE1B-48A2-A462-3A1827B31488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF46DF6-EE1B-48A2-A462-3A1827B31488}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -189,6 +195,7 @@ Global
 		{E24A8D1C-99C0-4D33-A92A-BCB4880069A6} = {5F0F92AE-413D-41B3-A04B-CE70B94EA27F}
 		{80EEE797-0CC1-4315-9D2A-B2C04ABD2A2D} = {360F7358-060F-4F2F-A007-D5248B3E42B2}
 		{022376B8-DFC4-4DA8-B8D9-84FE7B908089} = {05E26E9A-2A51-4118-952A-0F77BAA0F79C}
+		{2AF46DF6-EE1B-48A2-A462-3A1827B31488} = {A820C554-2B89-4933-8C43-2461F9B1387C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F74EF75F-2FBD-4E2F-96E3-83B83E14B5B5}
