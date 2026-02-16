@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01", "01", "{94A6982B-13AE-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsNumberOddOrNot", "IsNumberOddOrNot\IsNumberOddOrNot.csproj", "{F09A9611-05D1-4C3F-965D-19E33C32AE0E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02", "02", "{4D9D6BAA-8183-4B3D-A8D0-FA122DFFCED1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheGreathestNumber", "TheGreathestNumber\TheGreathestNumber.csproj", "{F5E83397-3E19-4659-9426-8B51FF473EE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{F09A9611-05D1-4C3F-965D-19E33C32AE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F09A9611-05D1-4C3F-965D-19E33C32AE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F09A9611-05D1-4C3F-965D-19E33C32AE0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5E83397-3E19-4659-9426-8B51FF473EE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5E83397-3E19-4659-9426-8B51FF473EE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5E83397-3E19-4659-9426-8B51FF473EE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5E83397-3E19-4659-9426-8B51FF473EE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{19BB6D15-1AE9-4C31-BDBD-6CDC2243F7E8} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{F09A9611-05D1-4C3F-965D-19E33C32AE0E} = {94A6982B-13AE-44B8-BDC7-25AD75A333E3}
+		{F5E83397-3E19-4659-9426-8B51FF473EE7} = {4D9D6BAA-8183-4B3D-A8D0-FA122DFFCED1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F74EF75F-2FBD-4E2F-96E3-83B83E14B5B5}
