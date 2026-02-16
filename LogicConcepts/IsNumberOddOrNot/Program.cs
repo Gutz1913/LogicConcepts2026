@@ -1,18 +1,22 @@
 ﻿using Shared;
 
-var response = string.Empty;
+var answer = string.Empty;
+var options = new List<string> { "s", "n" };
+Console.WriteLine("::::::::::::::::::::::::::::::::::::::::::::::::");
+Console.WriteLine("::::: EJERCICIO DE NÚMEROS PARES E IMPARES :::::");
+Console.WriteLine("::::::::::::::::::::::::::::::::::::::::::::::::");
 do
 {
     try
     {
-        var number = ConsoleExtension.GetInt("Ingrese un número: ");
+        var number = ConsoleExtension.GetInt("Ingrese un número entero....: ");
         if (number % 2 == 0)
         {
-            Console.WriteLine($"El número {number} es par.");
+            Console.WriteLine($"El número {number}, es par.");
         }
         else
         {
-            Console.WriteLine($"El número {number} es impar.");
+            Console.WriteLine($"El número {number}, es impar.");
         }
     }
     catch (Exception ex)
@@ -20,7 +24,9 @@ do
         Console.WriteLine(ex.Message);
     }
 
-    Console.Write("¿Desea continuar? (S/N): ");
-    response = Console.ReadLine()!.ToUpper();
-} while (response == "S");
-Console.WriteLine("\n :::::::::: GAME OVER :::::::::: \n");
+    do
+    {
+        answer = ConsoleExtension.GetValidOptions("¿Desea continuar [S]í, [N]o?: ", options);
+    } while (!options.Any(x => x.Equals(answer, StringComparison.CurrentCultureIgnoreCase)));
+} while (answer!.Equals("s", StringComparison.CurrentCultureIgnoreCase));
+Console.WriteLine("::::: GAME OVER :::::");
