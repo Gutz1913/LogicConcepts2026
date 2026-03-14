@@ -37,59 +37,60 @@ Console.WriteLine("::::: GAME OVER :::::");
 
 static bool IsValid(string bridge)
 {
-    var n = bridge.Length;
-
-    if (!(bridge[0] == '*' && bridge[n - 1] == '*'))
-    {
+    if (string.IsNullOrEmpty(bridge) || bridge.Length < 2)
         return false;
-    }
-    var reinforcementCounter = 0;
+
+    return HasValidBorders(bridge)
+        && HasValidMiddleChars(bridge)
+        && HasSymmetricReinforcement(bridge);
+}
+
+static bool HasValidBorders(string bridge)
+{
+    var n = bridge.Length;
+    return bridge[0] == '*' && bridge[n - 1] == '*';
+}
+
+static bool HasValidMiddleChars(string bridge)
+{
+    var n = bridge.Length;
+    var consecutiveEquals = 0;
     for (int i = 1; i < n - 1; i++)
     {
-        var partChar = bridge[i];
-        if (!(partChar == '=' || partChar == '+'))
-        {
+        var ch = bridge[i];
+        if (ch != '=' && ch != '+')
             return false;
-        }
 
-        if (partChar == '=')
-        {
-            reinforcementCounter++;
-        }
+        if (ch == '=')
+            consecutiveEquals++;
         else
-        {
-            reinforcementCounter = 0;
-        }
+            consecutiveEquals = 0;
 
-        if (reinforcementCounter == 4)
-        {
+        if (consecutiveEquals == 4)
             return false;
-        }
     }
 
-    reinforcementCounter = 0;
+    return true;
+}
+
+static bool HasSymmetricReinforcement(string bridge)
+{
+    var n = bridge.Length;
+    var consecutivePlus = 0;
     for (int i = 1; i < n / 2; i++)
     {
-        var leftChar = bridge[i];
-        var rightChar = bridge[n - i - 1];
-        if (leftChar != rightChar)
-        {
+        var left = bridge[i];
+        var right = bridge[n - i - 1];
+        if (left != right)
             return false;
-        }
 
-        if (leftChar == '+')
-        {
-            reinforcementCounter++;
-        }
+        if (left == '+')
+            consecutivePlus++;
         else
-        {
-            reinforcementCounter = 0;
-        }
+            consecutivePlus = 0;
 
-        if (reinforcementCounter == 3)
-        {
+        if (consecutivePlus == 3)
             return false;
-        }
     }
 
     return true;
