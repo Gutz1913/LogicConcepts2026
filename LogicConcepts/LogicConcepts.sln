@@ -131,6 +131,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "29", "29", "{29E0222B-931B-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadisonBridges", "MadisonBridges\MadisonBridges.csproj", "{01BF2018-067B-4A38-BA5A-BDDCE4486AD1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "31", "31", "{618CC264-4B7F-4FB7-AA73-B9083FE33B9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LowerTriangularMatrix", "LowerTriangularMatrix\LowerTriangularMatrix.csproj", "{13656CB5-7FB1-4C6D-BA7C-91D980668A7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -265,6 +269,10 @@ Global
 		{01BF2018-067B-4A38-BA5A-BDDCE4486AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01BF2018-067B-4A38-BA5A-BDDCE4486AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01BF2018-067B-4A38-BA5A-BDDCE4486AD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13656CB5-7FB1-4C6D-BA7C-91D980668A7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13656CB5-7FB1-4C6D-BA7C-91D980668A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13656CB5-7FB1-4C6D-BA7C-91D980668A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13656CB5-7FB1-4C6D-BA7C-91D980668A7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -302,6 +310,7 @@ Global
 		{75BAFA37-15C0-4C72-A44D-5539355AB458} = {BDA66E4A-7D85-42D5-B3EC-1750EF6C03E5}
 		{B424AEA6-6409-4BD1-96BA-3383F623C04A} = {1A2963AB-7EE7-4067-8E65-123E38DAE6F1}
 		{01BF2018-067B-4A38-BA5A-BDDCE4486AD1} = {29E0222B-931B-45C1-B83E-5F9A3E59FB8F}
+		{13656CB5-7FB1-4C6D-BA7C-91D980668A7B} = {618CC264-4B7F-4FB7-AA73-B9083FE33B9B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F74EF75F-2FBD-4E2F-96E3-83B83E14B5B5}
