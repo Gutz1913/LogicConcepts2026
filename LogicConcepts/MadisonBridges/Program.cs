@@ -18,10 +18,10 @@ do
         {
             Console.WriteLine("VALIDO");
         }
-        else 
+        else
         {
             Console.WriteLine("INVALIDO");
-        }        
+        }
     }
     catch (Exception ex)
     {
@@ -95,4 +95,3 @@ static bool HasSymmetricReinforcement(string bridge)
 
     return true;
 }
-
