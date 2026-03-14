@@ -26,6 +26,7 @@ do
             }
             Console.WriteLine();
         }
+        Console.WriteLine();
 
         //Declaramos e inicializamos la matriz auxiliar
         string[,] a = new string[n, n];
