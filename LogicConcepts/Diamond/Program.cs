@@ -44,8 +44,6 @@ do
             }
             Console.WriteLine();
         }
-
-
     }
     catch (Exception ex)
     {
